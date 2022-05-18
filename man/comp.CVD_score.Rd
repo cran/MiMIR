@@ -25,7 +25,7 @@ Function to compute CVD-score made by Peter Wurtz et al. made by Deelen et al. o
 This multivariate model predicts all-cause mortality at 5 or 10 years better than clinical variables normally associated with mortality.
 It is constituted of 14 metabolic features quantified by Nightingale Health.
 It was originally trained using a stepwise Cox regression analysis in a meta-analysis on 12 cohorts composed by 44,168 individuals.
-A multi biomarker score indicating cardiovascular risk and build by Würtz et al.
+A multi biomarker score indicating cardiovascular risk and build by Wurtz et al.
 It is calculated using information on sex, systolic blood pressure, current smoking, prevalent diabetes, antihypertensive medication, lipid lowering medication, total cholesterol, hdl cholesterol,
 together with phe, mufa_fa,faw6, and dha quantified by Nightingale. It was trained using a Cox proportional hazard regression model.
 }
@@ -41,7 +41,7 @@ CVDscore<-comp.CVD_score(met= met, phen=phen, betas=MiMIR::CVD_score_betas, quie
 }
 \references{
 This function is constructed to be able to apply the CVD-score as described in:
-Würtz,P. et al. (2015) Metabolite profiling and cardiovascular event risk: a prospective study of 3 population-based cohorts. Circulation, 131, 774–785, doi: 10.1161/CIRCULATIONAHA.114.013116
+Wurtz,P. et al. (2015) Metabolite profiling and cardiovascular event risk: a prospective study of 3 population-based cohorts. Circulation, 131, 774–785, \url{doi:10.1161/CIRCULATIONAHA.114.013116}
 }
 \seealso{
 prep_met_for_scores, CVD_score_betas, comp.T2D_Ahola_Olli, comp.mort_score
