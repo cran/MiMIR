@@ -21,6 +21,6 @@ data("CVD_score_betas")
 
 }
 \references{
-Wurtz,P. et al. (2015) Metabolite profiling and cardiovascular event risk: a prospective study of 3 population-based cohorts. Circulation, 131, 774–785, \url{doi:10.1161/CIRCULATIONAHA.114.013116}
+Wurtz,P. et al. (2015) Metabolite profiling and cardiovascular event risk: a prospective study of 3 population-based cohorts. Circulation, 131, 774-785, \url{doi:10.1161/CIRCULATIONAHA.114.013116}
 }
 \keyword{datasets}

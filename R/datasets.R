@@ -34,7 +34,7 @@
 #' Dataframe containing the abbreviation of the metabolites, the metabolites names and finally the Coefficients to compute the T2Diabetes score
 #' 
 #' @references
-#' Ahola-Olli,A.V. et al. (2019) Circulating metabolites and the risk of type 2 diabetes: a prospective study of 11,896 young adults from four Finnish cohorts. Diabetologia, 62, 2298–2309, <doi:10.1007/s00125-019-05001-w>
+#' Ahola-Olli,A.V. et al. (2019) Circulating metabolites and the risk of type 2 diabetes: a prospective study of 11,896 young adults from four Finnish cohorts. Diabetologia, 62, 2298-2309, <doi:10.1007/s00125-019-05001-w>
 #' 
 "Ahola_Olli_betas"
 
@@ -73,7 +73,7 @@
 #' Dataframe containing the abbreviation of the metabolites, the metabolites names and finally the Coefficients to compute the COVID score
 #' 
 #' @references
-#' Wurtz,P. et al. (2015) Metabolite profiling and cardiovascular event risk: a prospective study of 3 population-based cohorts. Circulation, 131, 774–785, <doi:10.1161/CIRCULATIONAHA.114.013116>
+#' Wurtz,P. et al. (2015) Metabolite profiling and cardiovascular event risk: a prospective study of 3 population-based cohorts. Circulation, 131, 774-785, <doi:10.1161/CIRCULATIONAHA.114.013116>
 #' 
 "CVD_score_betas"
 
@@ -93,7 +93,7 @@
 #' Dataframe containing the abbreviation of the metabolites, the metabolites names and finally the Coefficients to compute the mortality score
 #' 
 #' @references
-#' Deelen,J. et al. (2019) A metabolic profile of all-cause mortality risk identified in an observational study of 44,168 individuals. Nature Communications, 10, 1–8, <doi:10.1038/s41467-019-11311-9>
+#' Deelen,J. et al. (2019) A metabolic profile of all-cause mortality risk identified in an observational study of 44,168 individuals. Nature Communications, 10, 1-8, <doi:10.1038/s41467-019-11311-9>
 #' 
 "mort_betas"
 
@@ -112,7 +112,7 @@
 #' List containing all the information to pre-process and compute the MetaboAge.
 #' 
 #' @references
-#' van den Akker Erik B. et al. (2020) Metabolic Age Based on the BBMRI-NL 1H-NMR Metabolomics Repository as Biomarker of Age-related Disease. Circulation: Genomic and Precision Medicine, 13, 541–547, <doi:10.1161/CIRCGEN.119.002610>
+#' van den Akker Erik B. et al. (2020) Metabolic Age Based on the BBMRI-NL 1H-NMR Metabolomics Repository as Biomarker of Age-related Disease. Circulation: Genomic and Precision Medicine, 13, 541-547, <doi:10.1161/CIRCGEN.119.002610>
 #' 
 "PARAM_metaboAge"
 
@@ -212,11 +212,11 @@
 #' 
 #' @references 
 #' The selection of metabolic features available is the one selected by the papers:
-#' Deelen,J. et al. (2019) A metabolic profile of all-cause mortality risk identified in an observational study of 44,168 individuals. Nature Communications, 10, 1–8, <doi:10.1038/s41467-019-11311-9>
-#' Ahola-Olli,A.V. et al. (2019) Circulating metabolites and the risk of type 2 diabetes: a prospective study of 11,896 young adults from four Finnish cohorts. Diabetologia, 62, 2298–2309, <doi:10.1007/s00125-019-05001-w>
-#' Wurtz,P. et al. (2015) Metabolite profiling and cardiovascular event risk: a prospective study of 3 population-based cohorts. Circulation, 131, 774–785, <doi:10.1161/CIRCULATIONAHA.114.013116>
+#' Deelen,J. et al. (2019) A metabolic profile of all-cause mortality risk identified in an observational study of 44,168 individuals. Nature Communications, 10, 1-8, <doi:10.1038/s41467-019-11311-9>
+#' Ahola-Olli,A.V. et al. (2019) Circulating metabolites and the risk of type 2 diabetes: a prospective study of 11,896 young adults from four Finnish cohorts. Diabetologia, 62, 2298-2309, <doi:10.1007/s00125-019-05001-w>
+#' Wurtz,P. et al. (2015) Metabolite profiling and cardiovascular event risk: a prospective study of 3 population-based cohorts. Circulation, 131, 774-785, <doi:10.1161/CIRCULATIONAHA.114.013116>
 #' Bizzarri,D. et al. (2022) 1H-NMR metabolomics-based surrogates to impute common clinical risk factors and endpoints. EBioMedicine, 75, 103764, <doi:10.1016/j.ebiom.2021.103764>
-#' van den Akker Erik B. et al. (2020) Metabolic Age Based on the BBMRI-NL 1H-NMR Metabolomics Repository as Biomarker of Age-related Disease. Circulation: Genomic and Precision Medicine, 13, 541–547, <doi:10.1161/CIRCGEN.119.002610>
+#' van den Akker Erik B. et al. (2020) Metabolic Age Based on the BBMRI-NL 1H-NMR Metabolomics Repository as Biomarker of Age-related Disease. Circulation: Genomic and Precision Medicine, 13, 541-547, <doi:10.1161/CIRCGEN.119.002610>
 #' 
 "metabolites_subsets"
 
@@ -245,8 +245,8 @@
 #' data("synthetic_metabolic_dataset")
 #'
 #' @references 
-#' M. Schoenmaker et al., ‘Evidence of genetic enrichment for exceptional survival using a family approach: the Leiden Longevity Study’, Eur. J. Hum. Genet., vol. 14, no. 1, Art. no. 1, Jan. 2006, <doi:10.1038/sj.ejhg.5201508>
-#' B. Nowok, G. M. Raab, and C. Dibben, ‘synthpop: Bespoke Creation of Synthetic Data in R’, J. Stat. Softw., vol. 74, no. 1, Art. no. 1, Oct. 2016, <doi:10.18637/jss.v074.i11>
+#' M. Schoenmaker et al., 'Evidence of genetic enrichment for exceptional survival using a family approach: the Leiden Longevity Study', Eur. J. Hum. Genet., vol. 14, no. 1, Art. no. 1, Jan. 2006, <doi:10.1038/sj.ejhg.5201508>
+#' B. Nowok, G. M. Raab, and C. Dibben, 'synthpop: Bespoke Creation of Synthetic Data in R', J. Stat. Softw., vol. 74, no. 1, Art. no. 1, Oct. 2016, <doi:10.18637/jss.v074.i11>
 #'
 "synthetic_metabolic_dataset"
 
@@ -262,8 +262,8 @@
 #' data("synthetic_metabolic_dataset")
 #'
 #' @references
-#' M. Schoenmaker et al., ‘Evidence of genetic enrichment for exceptional survival using a family approach: the Leiden Longevity Study’, Eur. J. Hum. Genet., vol. 14, no. 1, Art. no. 1, Jan. 2006, <doi:10.1038/sj.ejhg.5201508>
-#' B. Nowok, G. M. Raab, and C. Dibben, ‘synthpop: Bespoke Creation of Synthetic Data in R’, J. Stat. Softw., vol. 74, no. 1, Art. no. 1, Oct. 2016, <doi:10.18637/jss.v074.i11>
+#' M. Schoenmaker et al., 'Evidence of genetic enrichment for exceptional survival using a family approach: the Leiden Longevity Study', Eur. J. Hum. Genet., vol. 14, no. 1, Art. no. 1, Jan. 2006, <doi:10.1038/sj.ejhg.5201508>
+#' B. Nowok, G. M. Raab, and C. Dibben, 'synthpop: Bespoke Creation of Synthetic Data in R', J. Stat. Softw., vol. 74, no. 1, Art. no. 1, Oct. 2016, <doi:10.18637/jss.v074.i11>
 #'
 "synthetic_phenotypic_dataset"
 

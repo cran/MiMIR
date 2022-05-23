@@ -103,11 +103,11 @@ find_BBMRI_names<-function(names){
 #' 
 #' @references 
 #' This function is constructed to be able to follow the pre-processing steps described in:
-#' Deelen,J. et al. (2019) A metabolic profile of all-cause mortality risk identified in an observational study of 44,168 individuals. Nature Communications, 10, 1–8, <doi:10.1038/s41467-019-11311-9>.
+#' Deelen,J. et al. (2019) A metabolic profile of all-cause mortality risk identified in an observational study of 44,168 individuals. Nature Communications, 10, 1-8, <doi:10.1038/s41467-019-11311-9>.
 #'  
-#' Ahola-Olli,A.V. et al. (2019) Circulating metabolites and the risk of type 2 diabetes: a prospective study of 11,896 young adults from four Finnish cohorts. Diabetologia, 62, 2298–2309, <doi:10.1007/s00125-019-05001-w>
+#' Ahola-Olli,A.V. et al. (2019) Circulating metabolites and the risk of type 2 diabetes: a prospective study of 11,896 young adults from four Finnish cohorts. Diabetologia, 62, 2298-2309, <doi:10.1007/s00125-019-05001-w>
 #' 
-#' Wurtz,P. et al. (2015) Metabolite profiling and cardiovascular event risk: a prospective study of 3 population-based cohorts. Circulation, 131, 774–785, <doi:10.1161/CIRCULATIONAHA.114.013116>
+#' Wurtz,P. et al. (2015) Metabolite profiling and cardiovascular event risk: a prospective study of 3 population-based cohorts. Circulation, 131, 774-785, <doi:10.1161/CIRCULATIONAHA.114.013116>
 #' 
 #' @seealso 
 #' comp.mort_score, mort_betas, comp.T2D_Ahola_Olli, comp.CVD_score
@@ -173,7 +173,7 @@ prep_met_for_scores <- function(dat, featID, plusone=FALSE, quiet=FALSE){
 #' 
 #' @references 
 #' This function is constructed to be able to apply the mortality score as described in:
-#' Deelen,J. et al. (2019) A metabolic profile of all-cause mortality risk identified in an observational study of 44,168 individuals. Nature Communications, 10, 1–8, <doi:10.1038/s41467-019-11311-9>
+#' Deelen,J. et al. (2019) A metabolic profile of all-cause mortality risk identified in an observational study of 44,168 individuals. Nature Communications, 10, 1-8, <doi:10.1038/s41467-019-11311-9>
 #' 
 #' @seealso 
 #' prep_met_for_scores, mort_betas, comp.T2D_Ahola_Olli, comp.CVD_score
@@ -227,7 +227,7 @@ comp.mort_score <- function(dat, betas=mort_betas, quiet=FALSE){
 #' 
 #' @references 
 #' This function is constructed to be able to apply the T2D-score as described in:
-#' Ahola-Olli,A.V. et al. (2019) Circulating metabolites and the risk of type 2 diabetes: a prospective study of 11,896 young adults from four Finnish cohorts. Diabetologia, 62, 2298–2309, <doi:10.1007/s00125-019-05001-w>
+#' Ahola-Olli,A.V. et al. (2019) Circulating metabolites and the risk of type 2 diabetes: a prospective study of 11,896 young adults from four Finnish cohorts. Diabetologia, 62, 2298-2309, <doi:10.1007/s00125-019-05001-w>
 #' 
 #' @seealso 
 #' prep_met_for_scores, Ahola_Olli_betas, comp.mort_score, comp.CVD_score
@@ -286,18 +286,10 @@ comp.T2D_Ahola_Olli<- function(met, phen, betas, quiet=FALSE){
 #' #Prepare the metabolic features fo the mortality score
 #' CVDscore<-comp.CVD_score(met= met, phen=phen, betas=MiMIR::CVD_score_betas, quiet=TRUE)
 #' 
-#' @details 
-#' This multivariate model predicts all-cause mortality at 5 or 10 years better than clinical variables normally associated with mortality. 
-#' It is constituted of 14 metabolic features quantified by Nightingale Health. 
-#' It was originally trained using a stepwise Cox regression analysis in a meta-analysis on 12 cohorts composed by 44,168 individuals.
-#' A multi biomarker score indicating cardiovascular risk and build by Wurtz et al. 
-#' It is calculated using information on sex, systolic blood pressure, current smoking, prevalent diabetes, antihypertensive medication, lipid lowering medication, total cholesterol, hdl cholesterol,
-#' together with phe, mufa_fa,faw6, and dha quantified by Nightingale. It was trained using a Cox proportional hazard regression model.
-#' 
 #' 
 #' @references 
 #' This function is constructed to be able to apply the CVD-score as described in:
-#' Wurtz,P. et al. (2015) Metabolite profiling and cardiovascular event risk: a prospective study of 3 population-based cohorts. Circulation, 131, 774–785, <doi:10.1161/CIRCULATIONAHA.114.013116>
+#' Wurtz,P. et al. (2015) Metabolite profiling and cardiovascular event risk: a prospective study of 3 population-based cohorts. Circulation, 131, 774-785, <doi:10.1161/CIRCULATIONAHA.114.013116>
 #' 
 #' @seealso 
 #' prep_met_for_scores, CVD_score_betas, comp.T2D_Ahola_Olli, comp.mort_score
@@ -491,7 +483,7 @@ comp_covid_score <- function(dat, betas=MiMIR::covid_betas ,quiet=FALSE){
 #' 
 #' @references 
 #' This function is constructed to be able to follow the pre-processing steps described in:
-#' van den Akker Erik B. et al. (2020) Metabolic Age Based on the BBMRI-NL 1H-NMR Metabolomics Repository as Biomarker of Age-related Disease. Circulation: Genomic and Precision Medicine, 13, 541–547, <doi:10.1161/CIRCULATIONAHA.114.013116>
+#' van den Akker Erik B. et al. (2020) Metabolic Age Based on the BBMRI-NL 1H-NMR Metabolomics Repository as Biomarker of Age-related Disease. Circulation: Genomic and Precision Medicine, 13, 541-547, <doi:10.1161/CIRCULATIONAHA.114.013116>
 #' 
 #' @seealso 
 #' apply.fit
@@ -550,7 +542,7 @@ QCprep<-function(mat, PARAM_metaboAge, quiet=TRUE, Nmax_zero=1, Nmax_miss=1){
 #' 
 #' @references 
 #' This function is constructed to be able to apply the metaboAge as described in:
-#' van den Akker Erik B. et al. (2020) Metabolic Age Based on the BBMRI-NL 1H-NMR Metabolomics Repository as Biomarker of Age-related Disease. Circulation: Genomic and Precision Medicine, 13, 541–547, <doi:10.1161/CIRCULATIONAHA.114.013116>
+#' van den Akker Erik B. et al. (2020) Metabolic Age Based on the BBMRI-NL 1H-NMR Metabolomics Repository as Biomarker of Age-related Disease. Circulation: Genomic and Precision Medicine, 13, 541-547, <doi:10.1161/CIRCULATIONAHA.114.013116>
 #' 
 #' @seealso 
 #' QCprep, subset_metabolites_overlap, subset_samples_miss, subset_samples_zero, subset_samples_sd, impute_miss, apply.scale,report.dim
@@ -593,11 +585,11 @@ apply.fit<-function(mat,FIT){
 #' @references 
 #' This function is constructed to calculate BMI, LDL cholesterol and eGFR as in the following papers:
 #' 
-#' BMI: Flint AJ, Rexrode KM, Hu FB, Glynn RJ, Caspard H, Manson JE et al. Body mass index, waist circumference, and risk of coronary heart disease: a prospective study among men and women. Obes Res Clin Pract 2010; 4: e171–e181, <doi:10.1016/j.orcp.2010.01.001>
+#' BMI: Flint AJ, Rexrode KM, Hu FB, Glynn RJ, Caspard H, Manson JE et al. Body mass index, waist circumference, and risk of coronary heart disease: a prospective study among men and women. Obes Res Clin Pract 2010; 4: e171-e181, <doi:10.1016/j.orcp.2010.01.001>
 #' 
-#' LDL-cholesterol: Friedewald WT, Levy RI, Fredrickson DS. Estimation of the Concentration of Low-Density Lipoprotein Cholesterol in Plasma, Without Use of the Preparative Ultracentrifuge. Clin Chem 1972; 18: 499–502, <doi.org/10.1093/clinchem/18.6.499>
+#' LDL-cholesterol: Friedewald WT, Levy RI, Fredrickson DS. Estimation of the Concentration of Low-Density Lipoprotein Cholesterol in Plasma, Without Use of the Preparative Ultracentrifuge. Clin Chem 1972; 18: 499-502, <doi.org/10.1093/clinchem/18.6.499>
 #' 
-#' eGFR: Carrero Juan Jesus, Andersson Franko Mikael, Obergfell Achim, Gabrielsen Anders, Jernberg Tomas. hsCRP Level and the Risk of Death or Recurrent Cardiovascular Events in Patients With Myocardial Infarction: a Healthcare‐Based Study. J Am Heart Assoc 2019; 8: e012638, <doi: 10.1161/JAHA.119.012638>
+#' eGFR: Carrero Juan Jesus, Andersson Franko Mikael, Obergfell Achim, Gabrielsen Anders, Jernberg Tomas. hsCRP Level and the Risk of Death or Recurrent Cardiovascular Events in Patients With Myocardial Infarction: a Healthcare-Based Study. J Am Heart Assoc 2019; 8: e012638, <doi: 10.1161/JAHA.119.012638>
 #' 
 #' @export
 #'
@@ -1711,11 +1703,11 @@ hist_plots<-function(dat, x_name, color=MiMIR::c21, scaled=FALSE, datatype="meta
 #' 
 #' @references 
 #' The selection of metabolic features available is the one selected by the papers:
-#' Deelen,J. et al. (2019) A metabolic profile of all-cause mortality risk identified in an observational study of 44,168 individuals. Nature Communications, 10, 1–8, <doi:10.1038/s41467-019-11311-9>
-#' Ahola-Olli,A.V. et al. (2019) Circulating metabolites and the risk of type 2 diabetes: a prospective study of 11,896 young adults from four Finnish cohorts. Diabetologia, 62, 2298–2309, <doi:10.1007/s00125-019-05001-w>
-#' Wurtz,P. et al. (2015) Metabolite profiling and cardiovascular event risk: a prospective study of 3 population-based cohorts. Circulation, 131, 774–785, <doi:10.1161/CIRCULATIONAHA.114.013116>
+#' Deelen,J. et al. (2019) A metabolic profile of all-cause mortality risk identified in an observational study of 44,168 individuals. Nature Communications, 10, 1-8, <doi:10.1038/s41467-019-11311-9>
+#' Ahola-Olli,A.V. et al. (2019) Circulating metabolites and the risk of type 2 diabetes: a prospective study of 11,896 young adults from four Finnish cohorts. Diabetologia, 62, 2298-2309, <doi:10.1007/s00125-019-05001-w>
+#' Wurtz,P. et al. (2015) Metabolite profiling and cardiovascular event risk: a prospective study of 3 population-based cohorts. Circulation, 131, 774-785, <doi:10.1161/CIRCULATIONAHA.114.013116>
 #' Bizzarri,D. et al. (2022) 1H-NMR metabolomics-based surrogates to impute common clinical risk factors and endpoints. EBioMedicine, 75, 103764, <doi:10.1016/j.ebiom.2021.103764>
-#' van den Akker Erik B. et al. (2020) Metabolic Age Based on the BBMRI-NL 1H-NMR Metabolomics Repository as Biomarker of Age-related Disease. Circulation: Genomic and Precision Medicine, 13, 541–547, <doi:10.1161/CIRCGEN.119.002610>
+#' van den Akker Erik B. et al. (2020) Metabolic Age Based on the BBMRI-NL 1H-NMR Metabolomics Repository as Biomarker of Age-related Disease. Circulation: Genomic and Precision Medicine, 13, 541-547, <doi:10.1161/CIRCGEN.119.002610>
 #' 
 #' @export
 #'
@@ -2095,7 +2087,7 @@ plot_corply <- function(res,main=NULL,zlim=NULL,reorder.x=FALSE,reorder.y=reorde
 #' This is a function originally created for the package in eRic, under the name prCalibrate and modified ad hoc for our purposes
 #' (\href{https://rdrr.io/github/etlundquist/eRic/man/prCalibrate.html}{Github})
 #' 
-#' J. C. Platt, ‘Probabilistic Outputs for Support Vector Machines and Comparisons to Regularized Likelihood Methods’, in Advances in Large Margin Classifiers, 1999, pp. 61–74.
+#' J. C. Platt, 'Probabilistic Outputs for Support Vector Machines and Comparisons to Regularized Likelihood Methods', in Advances in Large Margin Classifiers, 1999, pp. 61-74.
 #' 
 #' 
 #' @export

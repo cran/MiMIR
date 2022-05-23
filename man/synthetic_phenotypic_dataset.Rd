@@ -18,7 +18,7 @@ data("synthetic_metabolic_dataset")
 
 }
 \references{
-M. Schoenmaker et al., ‘Evidence of genetic enrichment for exceptional survival using a family approach: the Leiden Longevity Study’, Eur. J. Hum. Genet., vol. 14, no. 1, Art. no. 1, Jan. 2006, \url{doi:10.1038/sj.ejhg.5201508}
-B. Nowok, G. M. Raab, and C. Dibben, ‘synthpop: Bespoke Creation of Synthetic Data in R’, J. Stat. Softw., vol. 74, no. 1, Art. no. 1, Oct. 2016, \url{doi:10.18637/jss.v074.i11}
+M. Schoenmaker et al., 'Evidence of genetic enrichment for exceptional survival using a family approach: the Leiden Longevity Study', Eur. J. Hum. Genet., vol. 14, no. 1, Art. no. 1, Jan. 2006, \url{doi:10.1038/sj.ejhg.5201508}
+B. Nowok, G. M. Raab, and C. Dibben, 'synthpop: Bespoke Creation of Synthetic Data in R', J. Stat. Softw., vol. 74, no. 1, Art. no. 1, Oct. 2016, \url{doi:10.18637/jss.v074.i11}
 }
 \keyword{datasets}

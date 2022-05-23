@@ -21,6 +21,6 @@ data("Ahola_Olli_betas")
 
 }
 \references{
-Ahola-Olli,A.V. et al. (2019) Circulating metabolites and the risk of type 2 diabetes: a prospective study of 11,896 young adults from four Finnish cohorts. Diabetologia, 62, 2298–2309, \url{doi:10.1007/s00125-019-05001-w}
+Ahola-Olli,A.V. et al. (2019) Circulating metabolites and the risk of type 2 diabetes: a prospective study of 11,896 young adults from four Finnish cohorts. Diabetologia, 62, 2298-2309, \url{doi:10.1007/s00125-019-05001-w}
 }
 \keyword{datasets}

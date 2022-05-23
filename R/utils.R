@@ -19,7 +19,7 @@
 #' 
 #' @references 
 #' This function is constructed to be able to apply the metaboAge as described in:
-#' van den Akker Erik B. et al. (2020) Metabolic Age Based on the BBMRI-NL 1H-NMR Metabolomics Repository as Biomarker of Age-related Disease. Circulation: Genomic and Precision Medicine, 13, 541–547, <doi:10.1161/CIRCGEN.119.002610>
+#' van den Akker Erik B. et al. (2020) Metabolic Age Based on the BBMRI-NL 1H-NMR Metabolomics Repository as Biomarker of Age-related Disease. Circulation: Genomic and Precision Medicine, 13, 541-547, <doi:10.1161/CIRCGEN.119.002610>
 #' 
 #' @seealso 
 #' QCprep, apply.fit, subset_samples_miss, subset_samples_zero, subset_samples_sd, impute_miss, apply.scale, and report.dim
@@ -57,7 +57,7 @@ subset_metabolites_overlap<-function(x,metabos,quiet=FALSE){
 #' 
 #' @references 
 #' This function is constructed to be able to apply the metaboAge as described in:
-#' van den Akker Erik B. et al. (2020) Metabolic Age Based on the BBMRI-NL 1H-NMR Metabolomics Repository as Biomarker of Age-related Disease. Circulation: Genomic and Precision Medicine, 13, 541–547, <doi:10.1161/CIRCGEN.119.002610>
+#' van den Akker Erik B. et al. (2020) Metabolic Age Based on the BBMRI-NL 1H-NMR Metabolomics Repository as Biomarker of Age-related Disease. Circulation: Genomic and Precision Medicine, 13, 541-547, <doi:10.1161/CIRCGEN.119.002610>
 #' 
 #' @seealso 
 #' QCprep, apply.fit, subset_metabolites_overlap, subset_samples_zero, subset_samples_sd, impute_miss, apply.scale, and report.dim
@@ -96,7 +96,7 @@ subset_samples_miss<-function(x,Nmax=1,quiet=FALSE){
 #' 
 #' @references 
 #' This function is constructed to be able to apply the metaboAge as described in:
-#' van den Akker Erik B. et al. (2020) Metabolic Age Based on the BBMRI-NL 1H-NMR Metabolomics Repository as Biomarker of Age-related Disease. Circulation: Genomic and Precision Medicine, 13, 541–547, <doi:10.1161/CIRCGEN.119.002610>
+#' van den Akker Erik B. et al. (2020) Metabolic Age Based on the BBMRI-NL 1H-NMR Metabolomics Repository as Biomarker of Age-related Disease. Circulation: Genomic and Precision Medicine, 13, 541-547, <doi:10.1161/CIRCGEN.119.002610>
 #' 
 #' @seealso 
 #' QCprep, apply.fit, subset_metabolites_overlap, subset_samples_miss, subset_samples_sd, impute_miss, apply.scale, and report.dim
@@ -135,7 +135,7 @@ subset_samples_zero<-function(x,Nmax=1,quiet=FALSE){
 #' 
 #' @references 
 #' This function is constructed to be able to apply the metaboAge as described in:
-#' van den Akker Erik B. et al. (2020) Metabolic Age Based on the BBMRI-NL 1H-NMR Metabolomics Repository as Biomarker of Age-related Disease. Circulation: Genomic and Precision Medicine, 13, 541–547, <doi:10.1161/CIRCGEN.119.002610>
+#' van den Akker Erik B. et al. (2020) Metabolic Age Based on the BBMRI-NL 1H-NMR Metabolomics Repository as Biomarker of Age-related Disease. Circulation: Genomic and Precision Medicine, 13, 541-547, <doi:10.1161/CIRCGEN.119.002610>
 #' 
 #' @seealso 
 #' QCprep, apply.fit, subset_metabolites_overlap, subset_samples_miss, subset_samples_zero, impute_miss, apply.scale, and report.dim
@@ -182,7 +182,7 @@ subset_samples_sd<-function(x,MEAN,SD,quiet=FALSE){
 #' 
 #' @references 
 #' This function is constructed to be able to apply the metaboAge as described in:
-#' van den Akker Erik B. et al. (2020) Metabolic Age Based on the BBMRI-NL 1H-NMR Metabolomics Repository as Biomarker of Age-related Disease. Circulation: Genomic and Precision Medicine, 13, 541–547, <doi:10.1161/CIRCGEN.119.002610>
+#' van den Akker Erik B. et al. (2020) Metabolic Age Based on the BBMRI-NL 1H-NMR Metabolomics Repository as Biomarker of Age-related Disease. Circulation: Genomic and Precision Medicine, 13, 541-547, <doi:10.1161/CIRCGEN.119.002610>
 #' 
 #' @seealso 
 #' QCprep, apply.fit, subset_metabolites_overlap, subset_samples_miss, subset_samples_zero, subset_samples_sd, apply.scale, and report.dim
@@ -220,7 +220,7 @@ impute_miss<-function(x){
 #' 
 #' @references 
 #' This function is constructed to be able to apply the metaboAge as described in:
-#' van den Akker Erik B. et al. (2020) Metabolic Age Based on the BBMRI-NL 1H-NMR Metabolomics Repository as Biomarker of Age-related Disease. Circulation: Genomic and Precision Medicine, 13, 541–547, <doi:10.1161/CIRCGEN.119.002610>
+#' van den Akker Erik B. et al. (2020) Metabolic Age Based on the BBMRI-NL 1H-NMR Metabolomics Repository as Biomarker of Age-related Disease. Circulation: Genomic and Precision Medicine, 13, 541-547, <doi:10.1161/CIRCGEN.119.002610>
 #' 
 #' @seealso 
 #' QCprep, apply.fit, subset_metabolites_overlap, subset_samples_miss, subset_samples_zero, subset_samples_sd, impute_miss, and report.dim
@@ -262,7 +262,7 @@ apply.scale <- function(dat,MEAN,SD,quiet=TRUE){
 #' 
 #' @references 
 #' This function is constructed to be able to apply the metaboAge as described in:
-#' van den Akker Erik B. et al. (2020) Metabolic Age Based on the BBMRI-NL 1H-NMR Metabolomics Repository as Biomarker of Age-related Disease. Circulation: Genomic and Precision Medicine, 13, 541–547, <doi:10.1161/CIRCGEN.119.002610>
+#' van den Akker Erik B. et al. (2020) Metabolic Age Based on the BBMRI-NL 1H-NMR Metabolomics Repository as Biomarker of Age-related Disease. Circulation: Genomic and Precision Medicine, 13, 541-547, <doi:10.1161/CIRCGEN.119.002610>
 #' 
 #' @seealso 
 #' QCprep, apply.fit, subset_metabolites_overlap, subset_samples_miss, subset_samples_zero, subset_samples_sd, impute_miss, and apply.scale

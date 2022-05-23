@@ -21,6 +21,6 @@ data("PARAM_metaboAge")
 
 }
 \references{
-van den Akker Erik B. et al. (2020) Metabolic Age Based on the BBMRI-NL 1H-NMR Metabolomics Repository as Biomarker of Age-related Disease. Circulation: Genomic and Precision Medicine, 13, 541–547, \url{doi:10.1161/CIRCGEN.119.002610}
+van den Akker Erik B. et al. (2020) Metabolic Age Based on the BBMRI-NL 1H-NMR Metabolomics Repository as Biomarker of Age-related Disease. Circulation: Genomic and Precision Medicine, 13, 541-547, \url{doi:10.1161/CIRCGEN.119.002610}
 }
 \keyword{datasets}

@@ -21,6 +21,6 @@ data("mort_betas")
 
 }
 \references{
-Deelen,J. et al. (2019) A metabolic profile of all-cause mortality risk identified in an observational study of 44,168 individuals. Nature Communications, 10, 1–8, \url{doi:10.1038/s41467-019-11311-9}
+Deelen,J. et al. (2019) A metabolic profile of all-cause mortality risk identified in an observational study of 44,168 individuals. Nature Communications, 10, 1-8, \url{doi:10.1038/s41467-019-11311-9}
 }
 \keyword{datasets}
