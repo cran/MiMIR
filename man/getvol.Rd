@@ -6,9 +6,6 @@
 \usage{
 getvol()
 }
-\arguments{
-\item{data}{the dataset to show}
-}
 \value{
 table
 }

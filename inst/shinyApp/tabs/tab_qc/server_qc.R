@@ -96,23 +96,23 @@ mort_score <- reactive({
 
 # Calculate the MetaboAge
 MetaboAge <- reactive({
-  metabo_metaboage<-QCprep(as.matrix(metabo_measures()[,MiMIR::metabolites_subsets$MET63]),
+  metabo_metaboage<-QCprep(as.matrix(metabo_measures()[,MiMIR::metabolites_subsets$MET56]),
                            MiMIR::PARAM_metaboAge,quiet=TRUE,
                            Nmax_miss=input$Nmax_miss_metaboAge,
                            Nmax_zero=input$Nmax_zero_metaboAge)
   metaboage<-apply.fit(metabo_metaboage, FIT=MiMIR::PARAM_metaboAge$FIT_COEF)
   
-  if (is.null(phen_input$inDir)){
-    return(metaboage)
-    }else{
-      if (length(colnames(req(phenotypes()))=="age")==0){
-        return(metaboage)
-      }else{
-        metaboage<-data.frame(metaboage=metaboage, deltaMetaboAge=metaboage-(phenotypes()[,"age"]))
-        colnames(metaboage)<-c("MetaboAge","deltaMetaboAge")
-        return(metaboage)
-      }
-    }
+  # if (is.null(phen_input$inDir)){
+  #   return(metaboage)
+  #   }else{
+  #     if (length(colnames(req(phenotypes()))=="age")==0){
+  #       return(metaboage)
+  #     }else{
+  #       metaboage<-data.frame(metaboage=metaboage, deltaMetaboAge=metaboage-(phenotypes()[,"age"]))
+  #       colnames(metaboage)<-c("MetaboAge","deltaMetaboAge")
+  #       return(metaboage)
+  #     }
+  #   }
 })
 
 # Calculate the surrogates
